@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browser features info</title>
+</head>
+<body>
+  <h1>Browser features information</h1>
+  <ul>
+    <li>user-agent : <script>document.write(window.navigator.userAgent)</script></li>
+    <li>window.speechSynthesis : <script>document.write(window.speechSynthesis != null ? 'exists' : 'not found')</script></li>
+    <li>SpeechRecognition or webkitSpeechRecognition : <script>document.write((SpeechRecognition || webkitSpeechRecognition) != null ? 'exists' : 'not found')</script></li>
+  </ul>
+</body>
+</html>

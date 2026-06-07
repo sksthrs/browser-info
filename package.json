@@ -1,0 +1,10 @@
+{
+  "name": "browser-info",
+  "version": "0.1.0",
+  "description": "show browser feature information",
+  "license": "MIT",
+  "author": "sksthrs",
+  "main": "index.html",
+  "scripts": {
+  }
+}
